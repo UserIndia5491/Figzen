@@ -1,51 +1,51 @@
- [gd_scene load_steps=1 format=3]
+[gd_scene load_steps=1 format=3]
 
- [node name="Root" type="Control"]
- offset_right = 800
- offset_bottom = 450
+[node name="Root" type="Control"]
+offset_right = 800
+offset_bottom = 450
 
- [node name="Background" type="ColorRect" parent="."]
- offset_right = 800
- offset_bottom = 450
- color = Color("#202530ff")
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 800
+offset_bottom = 450
+color = Color("#202530ff")
 
- [node name="Title" type="Label" parent="."]
- offset_left = 40
- offset_top = 30
- offset_right = 360
- offset_bottom = 70
- text = "Figzen Demo"
- theme_override_font_sizes/font_size = 32
+[node name="Title" type="Label" parent="."]
+offset_left = 40
+offset_top = 30
+offset_right = 360
+offset_bottom = 70
+text = "Figzen Demo"
+theme_override_font_sizes/font_size = 32
 
- [node name="Card" type="Control" parent="."]
- offset_left = 40
- offset_top = 100
- offset_right = 360
- offset_bottom = 260
+[node name="Card" type="Control" parent="."]
+offset_left = 40
+offset_top = 100
+offset_right = 360
+offset_bottom = 260
 
- [node name="CardFill" type="ColorRect" parent="Card"]
- offset_right = 320
- offset_bottom = 160
- color = Color("#3b4354ff")
+[node name="CardFill" type="ColorRect" parent="Card"]
+offset_right = 320
+offset_bottom = 160
+color = Color("#3b4354ff")
 
- [node name="Body" type="Label" parent="Card"]
- offset_left = 20
- offset_top = 20
- offset_right = 300
- offset_bottom = 100
- text = "Editable Godot UI"
- theme_override_font_sizes/font_size = 20
-+
-+[node name="Rectangle" type="ColorRect" parent="Card"]
-+offset_left = 20
-+offset_top = 110
-+offset_right = 140
-+offset_bottom = 140
-+color = Color("#ff0000ff")
-+
-+[node name="Rectangle2" type="ColorRect" parent="Card"]
-+offset_left = 150
-+offset_top = 110
-+offset_right = 270
-+offset_bottom = 140
-+color = Color("#00ff00ff")
+[node name="Body" type="Label" parent="Card"]
+offset_left = 20
+offset_top = 20
+offset_right = 300
+offset_bottom = 100
+text = "Editable Godot UI"
+theme_override_font_sizes/font_size = 20
+
+[node name="Rectangle" type="ColorRect" parent="Card"]
+offset_left = 20
+offset_top = 110
+offset_right = 140
+offset_bottom = 140
+color = Color("#ff0000ff")
+
+[node name="Rectangle2" type="ColorRect" parent="Card"]
+offset_left = 150
+offset_top = 110
+offset_right = 270
+offset_bottom = 140
+color = Color("#00ff00ff")
