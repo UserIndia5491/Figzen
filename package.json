@@ -1,6 +1,6 @@
 {
   "name": "figzen",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Minimal local-first Figma to Godot 4 scene exporter",
   "scripts": {
@@ -9,6 +9,7 @@
     "test": "node --test tests/*.test.js"
   },
   "devDependencies": {
+    "@figma/plugin-typings": "^1.134.0",
     "typescript": "^5.8.3"
   }
 }
